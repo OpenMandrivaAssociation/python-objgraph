@@ -1,7 +1,7 @@
 %define module objgraph
 Name:		python-objgraph
 Version:	3.6.2
-Release:	1
+Release:	2
 Summary:	Draws Python object reference graphs with graphviz
 URL:		https://pypi.org/project/objgraph/
 License:	MIT
