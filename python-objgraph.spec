@@ -18,7 +18,7 @@ BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
 BuildRequires:	python%{pyver}dist(sphinx)
-BuildRequires:	python%{pyver}dist(sphinx_rtd_theme)
+BuildRequires:	python%{pyver}dist(sphinx-rtd-theme)
 BuildRequires:	python%{pyver}dist(sphobjinv)
 BuildRequires:	graphviz
 BuildRequires:	graphviz-gtk
