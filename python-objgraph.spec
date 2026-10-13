@@ -1,7 +1,7 @@
 %define module objgraph
 Name:		python-objgraph
 Version:	3.6.2
-Release:	3
+Release:	4
 Summary:	Draws Python object reference graphs with graphviz
 URL:		https://pypi.org/project/objgraph/
 License:	MIT
@@ -13,7 +13,7 @@ BuildSystem:	python
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(setuptools-scm)
@@ -69,7 +69,7 @@ install -Dpm 0644 docs/_build/html/*.* %{buildroot}%{_docdir}/%{name}/html
 
 ######################################
 %check
-%{__python3} tests.py
+%{__python} tests.py
 
 ######################################
 %files
